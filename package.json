@@ -1,0 +1,51 @@
+{
+  "name": "@mtripg6666tdr/eslint-config",
+  "version": "1.0.0",
+  "description": "Sharable eslint config",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "mtripg6666tdr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtripg6666tdr/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mtripg6666tdr/eslint-config/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint-plugin-deprecation": "^1.4.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-named-import-spacing": "^1.0.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-define-config": "^1.20.0",
+    "semantic-release": "^21.0.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "eslint-config-next": "*"
+  },
+  "peerDependenciesMeta": {
+    "eslint-config-next": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

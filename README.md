@@ -1,0 +1,60 @@
+> Note: this package is mainly for my own use, but it might be useful if you use as needed
+
+# @mtripg6666tdr/eslint-config
+Sharable eslint config, mainly for my own use.
+
+## Installation
+```bash
+npm i eslint @mtripg6666tdr/eslint-config
+```
+
+## Configurations
+### `@mtripg6666tdr/eslint-config/base`
+Base config for plain JavaScript.
+
+- Hierarchy: `base`
+
+### `@mtripg6666tdr/eslint-config/node`
+Config for plain JavaScript on Node.js
+
+- Hierarchy: `base` -> `node`
+
+### `@mtripg6666tdr/eslint-config/browser`
+Config for plain JavaScript that will be bundled and running on browser.
+
+- Hierarchy: `base` -> `browser`
+
+### `@mtripg6666tdr/eslint-config/typescript`
+Base config for TypeScript transpiled and running on Node.js
+
+- Hierarchy: `base` -> `typescript`
+
+### `@mtripg6666tdr/eslint-config/node-typescript`
+Config for Typescript on Node.js
+
+- Hierarchy: `base` -> `typescript` -> `node-typescript`
+
+### `@mtripg6666tdr/eslint-config/browser-typescript`
+Config for TypeScript transpiled and running on Browser
+
+- Hierarchy: `base` -> `typescript` -> `browser-typescript`
+
+### `@mtripg6666tdr/eslint-config/react-typescript`
+Config for TypeScript with React JSX (TSX) support.
+
+- Hierarchy: `base` -> `typescript` -> `browser-typescript` -> `react-typescript`
+
+### `@mtripg6666tdr/eslint-config/nextjs-typescript`
+Config for TypeScript with React JSX (TSX) on Next.js framework support.
+
+- Hierarchy: `next` + `typescript` (merging only rules configuration) -> `nextjs-typescript`
+
+|       |JavaScript|TypeScript          |
+|:-----:|:--------:|:------------------:|
+|Node.js|`node`    |`node-typescript`   |
+|Browser|`browser` |`browser-typescript`|
+|React  |-         |`react-typescript`  |
+|Next.js|-         |`nextjs-typescript` |
+
+## License
+[MIT](./LICENSE)
