@@ -12,4 +12,7 @@ module.exports = {
   plugins: [
     "node",
   ],
+  rules: {
+    "node/no-path-concat": "warn",
+  },
 };
