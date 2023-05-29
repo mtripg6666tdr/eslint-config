@@ -20,5 +20,6 @@ module.exports = {
     "react/no-unknown-property": "off",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-extra-parens": "off",
   },
 };

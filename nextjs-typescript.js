@@ -15,9 +15,15 @@ module.exports = {
     "deprecation",
     "eslint-comments",
   ],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   rules: Object.assign(
     {
       "@next/next/no-img-element": "off",
+      "@typescript-eslint/no-extra-parens": "off",
       "eslint-comments/no-unused-disable": "error",
     },
     typeScriptRules
