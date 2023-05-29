@@ -19,7 +19,7 @@ Base config for plain JavaScript.
 
 - Hierarchy: `base`
 
-### `@mtripg6666tdr/eslint-config/node`
+### `@mtripg6666tdr/eslint-config/nodejs`
 Config for plain JavaScript on Node.js
 
 - Hierarchy: `base` -> `node`
@@ -34,7 +34,7 @@ Base config for TypeScript transpiled and running on Node.js
 
 - Hierarchy: `base` -> `typescript`
 
-### `@mtripg6666tdr/eslint-config/node-typescript`
+### `@mtripg6666tdr/eslint-config/nodejs-typescript`
 Config for Typescript on Node.js
 
 - Hierarchy: `base` -> `typescript` -> `node-typescript`
@@ -57,7 +57,7 @@ Config for TypeScript with React JSX (TSX) on Next.js framework support.
 ### Quick Guide
 |       |JavaScript|TypeScript          |
 |:-----:|:--------:|:------------------:|
-|Node.js|`node`    |`node-typescript`   |
+|Node.js|`nodejs`  |`nodejs-typescript` |
 |Browser|`browser` |`browser-typescript`|
 |React  |-         |`react-typescript`  |
 |Next.js|-         |`nextjs-typescript` |
