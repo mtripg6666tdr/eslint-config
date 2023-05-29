@@ -9,7 +9,7 @@ module.exports = {
     "plugin:eslint-comments/recommended",
   ],
   plugins: [
-    "plugin:eslint-comments/recommended",
+    "eslint-comments",
   ],
   rules: Object.assign(
     {},
