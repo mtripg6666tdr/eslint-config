@@ -5,7 +5,12 @@ Sharable eslint config, mainly for my own use.
 
 ## Installation
 ```bash
-npm i eslint @mtripg6666tdr/eslint-config
+npm i eslint @mtripg6666tdr/eslint-config --save-dev
+```
+
+If you use `@mtripg6666tdr/eslint-config/nextjs-typescript`, then you also have to install `eslint-config-next`.
+```bash
+npm i eslint @mtripg6666tdr/eslint-config eslint-config-next --save-dev
 ```
 
 ## Configurations
@@ -49,6 +54,7 @@ Config for TypeScript with React JSX (TSX) on Next.js framework support.
 
 - Hierarchy: `next` + `typescript` (merging only rules configuration) -> `nextjs-typescript`
 
+### Quick Guide
 |       |JavaScript|TypeScript          |
 |:-----:|:--------:|:------------------:|
 |Node.js|`node`    |`node-typescript`   |

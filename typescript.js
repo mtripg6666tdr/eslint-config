@@ -4,7 +4,6 @@ module.exports = {
   extends: [
     "./base.js",
     "plugin:@typescript-eslint/recommended",
-    "plugin:eslint-comments/recommended",
     "plugin:node/recommended",
   ],
   parser: "@typescript-eslint/parser",
@@ -22,7 +21,6 @@ module.exports = {
     require("./presets/typescript-rules"),
     {
       // other plugins
-      "eslint-comments/no-unused-disable": "error",
       "import/order": [1, {
         "groups": [
           "type",

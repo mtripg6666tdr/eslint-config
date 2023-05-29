@@ -6,12 +6,19 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
+    "plugin:eslint-comments/recommended",
+  ],
+  plugins: [
+    "plugin:eslint-comments/recommended",
   ],
   rules: Object.assign(
     {},
     require("./presets/base-enabled-rules"),
     require("./presets/base-enabled-rules"),
     require("./presets/plain-javascript-rules"),
+    {
+      "eslint-comments/no-unused-disable": "error",
+    }
   ),
   overrides: [
     {
