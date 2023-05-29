@@ -43,7 +43,7 @@ module.exports = {
           },
           {
             type: "Update",
-            release: false
+            release: "patch"
           },
           {
             type: "Add",
