@@ -22,7 +22,7 @@ Base config for plain JavaScript.
 ### `@mtripg6666tdr/eslint-config/nodejs`
 Config for plain JavaScript on Node.js
 
-- Hierarchy: `base` -> `node`
+- Hierarchy: `base` -> `nodejs`
 
 ### `@mtripg6666tdr/eslint-config/browser`
 Config for plain JavaScript that will be bundled and running on browser.
@@ -37,7 +37,7 @@ Base config for TypeScript transpiled and running on Node.js
 ### `@mtripg6666tdr/eslint-config/nodejs-typescript`
 Config for Typescript on Node.js
 
-- Hierarchy: `base` -> `typescript` -> `node-typescript`
+- Hierarchy: `base` -> `typescript` -> `nodejs-typescript`
 
 ### `@mtripg6666tdr/eslint-config/browser-typescript`
 Config for TypeScript transpiled and running on Browser
