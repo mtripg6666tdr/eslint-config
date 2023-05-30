@@ -52,7 +52,7 @@ Config for TypeScript with React JSX (TSX) support.
 ### `@mtripg6666tdr/eslint-config/nextjs-typescript`
 Config for TypeScript with React JSX (TSX) on Next.js framework support.
 
-- Hierarchy: `next` + `typescript` (merging only rules configuration) -> `nextjs-typescript`
+- Hierarchy: [`next`](https://www.npmjs.com/package/eslint-config-next) + `typescript` (merging only rules configuration) -> `nextjs-typescript`
 
 ### Quick Guide
 |       |JavaScript|TypeScript          |
