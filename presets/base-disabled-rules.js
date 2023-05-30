@@ -4,5 +4,6 @@
 module.exports = {
   "lines-between-class-members": "off",
   "no-empty-function": "off",
+  "no-promise-executor-return": "off",
   "no-unused-vars": "off",
 };
