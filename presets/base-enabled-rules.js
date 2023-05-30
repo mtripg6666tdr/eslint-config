@@ -89,7 +89,6 @@ module.exports = {
   "no-new-require": "error",
   "no-new-wrappers": "error",
   "no-octal-escape": "error",
-  "no-promise-executor-return": "warn",
   "no-self-compare": "warn",
   "no-sequences": "warn",
   "no-trailing-spaces": [
