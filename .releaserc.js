@@ -46,6 +46,10 @@ module.exports = {
             release: "patch"
           },
           {
+            type: "update",
+            release: "patch"
+          },
+          {
             type: "Add",
             release: false
           },
@@ -104,7 +108,7 @@ module.exports = {
             },
             {
               type: "update",
-              hidden: true
+              section: "Dependencies"
             },
             {
               type: "add",
