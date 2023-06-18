@@ -4,12 +4,10 @@ module.exports = {
   extends: [
     "./base.js",
     "plugin:@typescript-eslint/recommended",
-    "plugin:node/recommended",
   ],
   parser: "@typescript-eslint/parser",
   plugins: [
     "@typescript-eslint",
-    "node",
     "import",
     "named-import-spacing",
     "unused-imports",
