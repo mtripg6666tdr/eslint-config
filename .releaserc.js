@@ -23,6 +23,14 @@ module.exports = {
           },
           {
             type: "Chore",
+            release: "patch"
+          },
+          {
+            type: "chore",
+            release: "patch"
+          },
+          {
+            type: "Chore",
             release: false
           },
           {
