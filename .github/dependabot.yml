@@ -11,6 +11,7 @@ updates:
     target-branch: "main"
     allow:
       - dependency-type: "direct"
+    versioning-strategy: increase
   
   - package-ecosystem: github-actions
     directory: "/"
