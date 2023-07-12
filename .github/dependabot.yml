@@ -16,6 +16,7 @@ updates:
       typescript-eslint:
         patterns:
           - "@typescript-eslint/*"
+          - "eslint-plugin-unused-imports"
   
   - package-ecosystem: github-actions
     directory: "/"
