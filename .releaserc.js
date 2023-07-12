@@ -13,6 +13,10 @@ module.exports = {
         preset: "conventionalcommits",
         releaseRules: [
           {
+            breaking: true,
+            release: "major",
+          },
+          {
             type: "Docs",
             scope: "README",
             release: "patch"
@@ -134,13 +138,13 @@ module.exports = {
         }
       }
     ],
-    "@semantic-release/npm",
-    [
-      "@semantic-release/github",
-      {
-        addReleases: "bottom"
-      }
-    ]
+    // "@semantic-release/npm",
+    // [
+    //   "@semantic-release/github",
+    //   {
+    //     addReleases: "bottom"
+    //   }
+    // ]
   ],
   parserOpts: {
     noteKeywords: [
