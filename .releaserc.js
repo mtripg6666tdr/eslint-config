@@ -30,10 +30,6 @@ module.exports = {
             release: "patch"
           },
           {
-            type: "Chore",
-            release: false
-          },
-          {
             type: "Feat",
             release: "minor"
           },
@@ -77,7 +73,7 @@ module.exports = {
             scope: "no-release",
             release: false
           }
-        ]
+        ],
       }
     ],
     [
@@ -151,6 +147,7 @@ module.exports = {
       "BREAKING CHANGE",
       "BREAKING CHANGES",
       "BREAKING"
-    ]
+    ],
+    notesPattern: (pattern) => new RegExp("^[\\s|*]*(" + pattern + ")([:\\s]+)?(.*)"),
   }
 }
