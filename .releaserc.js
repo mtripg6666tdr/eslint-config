@@ -13,6 +13,10 @@ module.exports = {
         preset: "conventionalcommits",
         releaseRules: [
           {
+            breaking: true,
+            release: "major",
+          },
+          {
             type: "Docs",
             scope: "README",
             release: "patch"
