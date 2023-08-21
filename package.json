@@ -36,7 +36,7 @@
     "conventional-changelog-conventionalcommits": "^6.0.0",
     "eslint": "^8.47.0",
     "eslint-define-config": "^1.23.0",
-    "semantic-release": "^21.0.7"
+    "semantic-release": "^21.0.9"
   },
   "peerDependencies": {
     "eslint": ">=8",
