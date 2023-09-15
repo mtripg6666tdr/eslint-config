@@ -17,6 +17,9 @@ updates:
         patterns:
           - "@typescript-eslint/*"
           - "eslint-plugin-unused-imports"
+    ignore:
+      - dependency-name: "conventional-changelog-conventionalcommits"
+        update-types: ["version-update:semver-major"]
   
   - package-ecosystem: github-actions
     directory: "/"
