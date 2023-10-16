@@ -35,7 +35,7 @@
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "eslint": "^8.51.0",
-    "eslint-define-config": "^1.24.0",
+    "eslint-define-config": "^1.24.1",
     "semantic-release": "^22.0.5"
   },
   "peerDependencies": {
