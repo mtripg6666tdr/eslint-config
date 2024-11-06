@@ -1,3 +1,6 @@
+> :warning: Deprecation: This configuration package is no longer supported with eslint v9 or later.
+> After migrating all of my projects depending on this to eslint@v9, this project is going to be archived.
+
 > Note: this package is mainly for my own use, but it might be useful if you use as needed
 
 # @mtripg6666tdr/eslint-config
